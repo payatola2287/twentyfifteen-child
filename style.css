@@ -1,58 +1,35 @@
-/*  
-Theme Name: Standard Child Theme Kit
-Theme URI: https://github.com/eightbit/standard-child-theme-kit
-Version: 3.2.1
-Description: This is a "getting started" child theme kit for Standard 3.
-Author: 8BIT
-Author URI: http://8bit.io
-Author Email: sales@8bit.io
-License: GNU General Public License v3.0 or later
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
-Template: standard
+/*
+ Theme Name:   Una Wordpress Theme
+ Theme URI:    
+ Description:  Twenty Fifteen Child Theme
+ Author:       Paolo Gallardo
+ Author URI:   paologallardo2287.x10host.com
+ Template:     twentyfifteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
 */
-
-
-/* Import Standard Styles
----------------------------------------------------------------------------------- */
-
-@import url( '../standard/style.css' );
-@import url( '../standard/css/theme-responsive.css' );
-
-/* Uncomment the line below to enable child theme right-to-left language support. */
-/* @import url( '../standard/rtl.css' ); */
-
-
-/* Customizations
----------------------------------------------------------------------------------- */
-
-
-
-/* Media Queries
----------------------------------------------------------------------------------- */
-
-/* Smartphones */
-@media (max-width: 480px) {
-
+.main-navigation ul,
+.main-navigation li{
+    border: 0;
 }
-
-/* Tablet & Mobile */
-@media (max-width: 979px) {	
-			
+.search-form{
+    position: relative;
 }
-
-/* Mobile to Tablet */
-@media only screen and (max-width: 767px) {
-	
+.search-button{
+    position: absolute;
+    top: 0;
+    right:  0;
 }
-
-
-/* Landscape Tablets */
-@media (min-width: 768px) and (max-width: 979px) {
-
+@media screen and (min-width: 59.6875em){
+    .site-header{
+        margin: 20% 0 5%;
+    }
+    .site-branding{
+        margin: 0 0 10%;
+    }
+    .sidebar-form{
+        margin: 0 20%;
+    }
 }
-
-/* Desktop */
-@media (min-width: 980px) {
-	
-}
-
